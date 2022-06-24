@@ -147,7 +147,7 @@ To use the custom rules defined above, you need to set the `pluralizationRules` 
 const i18n = createI18n({
   locale: 'ru',
   // the custom rules here ...
-  pluralizationRules: {
+  pluralRules: {
     ru: customRule
   },
   messages: {
